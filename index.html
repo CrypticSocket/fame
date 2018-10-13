@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" media="screen" href="./css/bare.min.css">
+        <link rel="stylesheet" href="./css/fontfix.css">
+        <title>Cipherathon</title>
+    </head>
+    <body>
+        <nav id="nav_bar">
+            <label>
+                <input type="checkbox">
+                <header>
+                    <a href="#intro"><h3>Cipherathon</h3></a>
+                </header>
+                <ul id="nav_bar_items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </label>
+        </nav>
+        <img src="./img/bg.jpg" id="bg_intro">
+        <section txt="c" id="intro">
+            <div id="txt_intro">
+                <h1>Cipherathon</h1>
+                <h5>A Cyber Security Hackathon</h5>
+            </div>
+            <button rounded>Registrations Open!</button>
+        </section>
+        <section txt="c" id="about">
+            <h2>About</h2>
+            <grid>
+                <div col="1/2">
+                    <h3>Presented by</h3>
+                    <img src="./img/rex.png">
+                </div>
+                <div col="1/2">
+                    <h3>Organising and Strategy Partner</h3>
+                    <img src="./img/famelogo.png">
+                </div>
+            </grid>
+            <h3>Our Agenda</h3>
+            <p>Coming soon...</p>
+        </section>
+        
+        <style>
+            body{
+                width: 98.9vw;
+                height: 100vh;
+            }
+            
+            #nav_bar{
+                background-color: rgb(0,0,0,0.4);
+                color: white;
+            }
+            
+            #nav_bar_items li a:hover{
+                color: #ACD;
+                border-bottom: 3px solid #ACD;
+            }
+            
+            #intro{
+                padding-top: 40vh;
+                padding-bottom: 40vh;
+                color: white;
+            }
+            
+            #txt_intro{
+                background: rgb(0,0,0,0.4);
+            }
+            
+            #bg_intro{
+                margin-top: 0;
+                position: absolute;
+                top:0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                filter: blur(3px);
+                background-color: #025;
+            }
+            
+            #about{
+                background-color: #ABF;
+            }
+        </style>
+    </body>
+</html>
+
+
+<!--
+    rgb(0, 34, 85, 0.9)
+-->
